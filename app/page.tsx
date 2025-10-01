@@ -64,7 +64,7 @@ export default function Home() {
       <div className="flex justify-center py-10 md:py-20">
         <div className="p-[4px] rounded-3xl bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 shadow-lg shadow-purple-500/30 hover:shadow-purple-500/40 transition-all duration-300 ease-out hover:scale-105">
           <Image
-            src="/Ismages/myImage2.jpg"
+            src="/Images/myImage2.jpg"
             alt="Profile image"
             width={350}
             height={400}
