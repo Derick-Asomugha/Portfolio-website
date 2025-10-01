@@ -87,18 +87,18 @@ export default function Home() {
             priority
           />
       </div>
-      <div className="pt-20 md:pt-0  ml-6 mr-6 px-10">
-        <h1 className="font-bold text-2xl ">About Me</h1>
+      <div className="pt-20 md:pt-0  px-5 sm:mb-5">
+        <h1 className="font-bold text-3xl ">About Me</h1>
         <br />
        
-        <p className="font-light text-xs md:text-2xl mb-4">
+        <p className="font-light text-2xl md:text-2xl mb-4">
           I&#39;m a passionate full-stack developer with 2+ years of experience 
            building scalable web applications. I love turning complex problems 
            into simple, beautiful solutions that users enjoy interacting with.
         </p>
         <br />
         
-        <p className="font-light text-xs md:text-2xl mb-4">
+        <p className="font-light text-2xl md:text-2xl mb-4">
           When I&#39;m not coding, you&#39;ll find me exploring new technologies,<br />
           contributing to open source projects, or sharing my knowledge <br />
           through technical writing and mentoring.
