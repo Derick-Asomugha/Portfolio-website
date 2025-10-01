@@ -64,7 +64,7 @@ export default function Home() {
       <div className="flex justify-center py-10 md:py-20">
         <div className="p-[4px] rounded-3xl bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 shadow-lg shadow-purple-500/30 hover:shadow-purple-500/40 transition-all duration-300 ease-out hover:scale-105">
           <Image
-            src="/images/myImage2.jpg"
+            src="/Ismages/myImage2.jpg"
             alt="Profile image"
             width={350}
             height={400}
@@ -79,7 +79,7 @@ export default function Home() {
     <section id="about" className="gap-4 grid grid-cols-1 px-10 lg:grid-cols-2 pt-20 md:pt-40 pb-20 justify-center items-start w-full place-items-center dark:text-white">
          <div>
           <Image
-            src="/images/aboutMe.png"
+            src="/Images/aboutMe.png"
             alt="Profile image"
             width={400}
             height={400}
@@ -134,7 +134,7 @@ export default function Home() {
         <div className="grid grid-cols-1  lg:grid-cols-2 2xl:grid-cols-3  gap-6 place-items-center pt-10">
          
            <ProjectCard
-             image="/images/eccomerce.png"
+             image="/Images/eccomerce.png"
              name="E-commerce Store"
              description="A scalable e-commerce platform with product management and checkout."
              tools={["Tailwind","Typescript","React","Next js", "Node.js", "MongoDB", "oAuth", "REST API"]}
@@ -145,7 +145,7 @@ export default function Home() {
 
   {/* Crypto Image Generator */}
   <ProjectCard
-    image="/images/imageGenerator.png"
+    image="/Images/imageGenerator.png"
     name="Crypto Image Generator"
     description="Generate unique AI-driven crypto-themed images and NFTs instantly."
     tools={["React", "Next.js", "OpenAI API", "Tailwind CSS", "REST API", "Node.js", "Typescript"]}
@@ -155,7 +155,7 @@ export default function Home() {
 
   {/* Blog Website */}
   <ProjectCard
-    image="/images/blog.png"
+    image="/Images/blog.png"
     name="Blog Website"
     description="A modern blog platform with markdown support, SEO, and dark mode."
     tools={["EJS", "React", "Next.js", "TypeScript", "Tailwind CSS", "REST API", "Node.js"]}
@@ -165,7 +165,7 @@ export default function Home() {
 
   {/* Weather App */}
   <ProjectCard
-    image="/images/weather.png"
+    image="/Images/weather.png"
     name="Weather App"
     description="Real-time weather forecasts with location search and 7-day predictions."
     tools={["React", "Next.js", "OpenWeather API", "Tailwind CSS", "TypeScript", "REST API", "Node.js"]}
@@ -175,7 +175,7 @@ export default function Home() {
 
   {/* To-Do List */}
   <ProjectCard
-    image="/images/todo.jpeg"
+    image="/Images/todo.jpeg"
     name="To-Do List"
     description="A productivity app for managing daily tasks with drag-and-drop sorting."
     tools={["React", "Next.js","Node.js", "TypeScript", "Tailwind CSS", "MongoDB", "REST API"]}
@@ -185,7 +185,7 @@ export default function Home() {
 
   {/* Newspaper Form */}
   <ProjectCard
-    image="/images/newsLetter.png"
+    image="/Images/newsLetter.png"
     name="News-Letter Form"
     description="An online form that lets users submit and publish news articles."
     tools={["Next.js", "EJS", "MongoDB", "Tailwind CSS", "Node.js", "TypeScript", "oAUTH"]}

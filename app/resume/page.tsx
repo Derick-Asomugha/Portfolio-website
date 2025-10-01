@@ -26,7 +26,7 @@ export default function Contact() {
       {/* Resume Image */}
       <div ref={resumeRef} className="border rounded-lg shadow-lg p-2 bg-white">
         <Image
-          src="/images/resume.jpg"
+          src="/Images/resume.jpg"
           alt="Resume"
           width={800}
           height={1000}
