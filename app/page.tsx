@@ -103,7 +103,7 @@ export default function Home() {
           contributing to open source projects, or sharing my knowledge <br />
           through technical writing and mentoring.
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 ">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 justify-center pl ">
         <div className="justify-center w-auto flex gap-2 px-6 py-2 rounded-lg font-semibold text-black dark:text-white border-2 border-black dark:border-white">
             2+ yrs<span className="pt-1.5 font-bold"><TbBracketsAngle /></span>
         </div>
@@ -116,7 +116,7 @@ export default function Home() {
         </div>
         <div className="mt-5 place-items-center justify-center text-center">
           <a href="/resume">
-           <button className="flex gap-3 w-auto px-6 py-2 rounded-lg font-semibold hover:h-12 hover:w-56 text-black dark:text-white border-2 border-black dark:border-white">
+           <button className="flex gap-3 md:w-auto w-full px-6 py-2 rounded-lg font-semibold hover:h-12 hover:w-56 text-black dark:text-white border-2 border-black dark:border-white">
           Download Resume <span className="pt-1.5 font-bold"><IoMdDownload /></span>
         </button>
         </a>
