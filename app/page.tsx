@@ -116,7 +116,7 @@ export default function Home() {
         </div>
         <div className="mt-5 place-items-center justify-center text-center">
           <a href="/resume">
-           <button className="flex gap-3 md:w-auto w-full px-6 py-2 rounded-lg font-semibold hover:h-12 hover:w-56 text-black dark:text-white border-2 border-black dark:border-white">
+           <button className="flex gap-3 md:w-auto w-full px-6 py-2 rounded-lg font-semibold hover:bg-slate-200 dark:hover:bg-slate-800 hover:w-56 text-black dark:text-white border-2 border-black dark:border-white">
           Download Resume <span className="pt-1.5 font-bold"><IoMdDownload /></span>
         </button>
         </a>
